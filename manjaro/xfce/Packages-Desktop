@@ -244,3 +244,6 @@ manjaro-hotfixes
 >basic squashfs-tools
 xiccd # enable color profile settings
 tlp
+
+## Fluxbox
+>extra fluxbox
