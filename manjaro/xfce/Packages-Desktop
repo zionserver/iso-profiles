@@ -70,9 +70,9 @@ terminus-font
 >extra apparmor
 #>extra gnome-software-snap
 pamac-gtk
->extra snapd
->extra snapd-glib
->extra pamac-snap-plugin
+#>extra snapd
+#>extra snapd-glib
+#>extra pamac-snap-plugin
 >extra pamac-flatpak-plugin
 
 ## Printing
@@ -189,7 +189,7 @@ powertop
 screenfetch
 >extra poppler-data  # CKJ support for pdf
 #>basic sylpheed # mail client
->extra thunderbird
+#>extra thunderbird
 >extra vlc
 >extra viewnior
 >extra xfburn
@@ -230,7 +230,7 @@ xorg-twm
 xorg-xinit
 xorg-xkill
 xorg-mkfontscale
-
+>extra fluxbox
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
@@ -244,6 +244,3 @@ manjaro-hotfixes
 >basic squashfs-tools
 xiccd # enable color profile settings
 tlp
-
-## Fluxbox
->extra fluxbox
