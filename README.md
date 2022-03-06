@@ -12,7 +12,7 @@
 # multilib="true"
 
 ## use extra packages as defined in pkglist to activate a full profile
-# extra="false"
+# extra="true"
 
 ################ install ################
 
